@@ -17,6 +17,10 @@
 		849E59FE25A6C7BE00773B38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849E59D225A6C7BE00773B38 /* Assets.xcassets */; };
 		849E5A1225A6F82500773B38 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 849E5A1125A6F82500773B38 /* README.md */; };
 		849E5A1325A6F82500773B38 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 849E5A1125A6F82500773B38 /* README.md */; };
+		849E5A1A25A6F93C00773B38 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 849E5A1825A6F93C00773B38 /* .gitignore */; };
+		849E5A1B25A6F93C00773B38 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 849E5A1825A6F93C00773B38 /* .gitignore */; };
+		849E5A1C25A6F93C00773B38 /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = 849E5A1925A6F93C00773B38 /* .gitattributes */; };
+		849E5A1D25A6F93C00773B38 /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = 849E5A1925A6F93C00773B38 /* .gitattributes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,8 @@
 		849E59F625A6C7BE00773B38 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		849E59F825A6C7BE00773B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		849E5A1125A6F82500773B38 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		849E5A1825A6F93C00773B38 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
+		849E5A1925A6F93C00773B38 /* .gitattributes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitattributes; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,8 @@
 				849E59F525A6C7BE00773B38 /* Tests macOS */,
 				849E59D825A6C7BE00773B38 /* Products */,
 				849E5A1125A6F82500773B38 /* README.md */,
+				849E5A1925A6F93C00773B38 /* .gitattributes */,
+				849E5A1825A6F93C00773B38 /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -280,7 +288,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				849E5A1225A6F82500773B38 /* README.md in Resources */,
+				849E5A1A25A6F93C00773B38 /* .gitignore in Resources */,
 				849E59FD25A6C7BE00773B38 /* Assets.xcassets in Resources */,
+				849E5A1C25A6F93C00773B38 /* .gitattributes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +299,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				849E5A1325A6F82500773B38 /* README.md in Resources */,
+				849E5A1B25A6F93C00773B38 /* .gitignore in Resources */,
 				849E59FE25A6C7BE00773B38 /* Assets.xcassets in Resources */,
+				849E5A1D25A6F93C00773B38 /* .gitattributes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
